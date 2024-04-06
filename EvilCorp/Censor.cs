@@ -17,7 +17,8 @@ public class Censor
 
         foreach (var word in blacklistedWords)
         {
-            result = result.Replace(word, "XXXX");
+            var replace = String.Concat(Enumerable.Repeat('X', word.Length));
+            result = result.Replace(word, replace);
         }
 
         return result;
