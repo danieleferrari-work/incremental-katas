@@ -97,3 +97,9 @@ C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\obj\Debu
 C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\obj\Debug\net6.0\EvilCorp-Test.pdb
 C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\obj\Debug\net6.0\EvilCorp-Test.genruntimeconfig.cache
 C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\obj\Debug\net6.0\ref\EvilCorp-Test.dll
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\EvilCorp.deps.json
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\EvilCorp.runtimeconfig.json
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\EvilCorp.exe
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\EvilCorp.dll
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp-Test\bin\Debug\net6.0\EvilCorp.pdb
