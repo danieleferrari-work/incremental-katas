@@ -1,0 +1,15 @@
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\bin\Debug\net6.0\EvilCorp.exe
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\bin\Debug\net6.0\EvilCorp.deps.json
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\bin\Debug\net6.0\EvilCorp.runtimeconfig.json
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\bin\Debug\net6.0\EvilCorp.dll
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\bin\Debug\net6.0\EvilCorp.pdb
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.csproj.AssemblyReference.cache
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.AssemblyInfoInputs.cache
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.AssemblyInfo.cs
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.csproj.CoreCompileInputs.cache
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.dll
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\refint\EvilCorp.dll
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.pdb
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\EvilCorp.genruntimeconfig.cache
+C:\Users\ferra_ag5caxa\Documents\GitHub\incremental-katas\EvilCorp\obj\Debug\net6.0\ref\EvilCorp.dll
