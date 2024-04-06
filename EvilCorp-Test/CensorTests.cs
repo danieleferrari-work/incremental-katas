@@ -17,6 +17,8 @@ public class Tests
     [TestCase(new string[] { "nice", "pony", "sun", "light", "fun", "happy", "funny", "joy" }, 
                             "Such a nice day with a bright sun, makes me happy", 
                             "Such a XXXX day with a bright XXX, makes me XXXXX")]
+    [TestCase(new string[] { "friend" }, "You are so friendly!", "You are so XXXXXXXX!")]
+
     public void ApplyCensorship_ShouldWork(string[] blacklistedWords, string inputString, string expectedResult)
     {
         var censor = new Censor(blacklistedWords);

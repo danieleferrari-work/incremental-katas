@@ -1,26 +1,36 @@
-using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace EvilCorp;
 
 public class Censor
 {
-    private readonly string[] blacklistedWords;
+    private readonly string[] blacklist;
 
     public Censor(string[] blacklistedWords)
     {
-        this.blacklistedWords = blacklistedWords;
+        this.blacklist = blacklistedWords;
     }
 
     public string ApplyCensorship(string inputString)
     {
         var result = inputString;
 
-        foreach (var word in blacklistedWords)
+        var inputArray = inputString.Split(' ');
+        var resultArray = inputArray;
+
+        for (int i = 0; i < inputArray.Length; i++)
         {
-            var replace = String.Concat(Enumerable.Repeat('X', word.Length));
-            result = result.Replace(word, replace);
+            foreach (var blacklistedWord in blacklist)
+            {
+                if (inputArray[i].Contains(blacklistedWord))
+                {
+                    var regex = new Regex("[a-zA-Z0-9]");
+
+                    resultArray[i] = regex.Replace(inputArray[i], "X");
+                }
+            }
         }
 
-        return result;
+        return String.Join(" ", resultArray);
     }
 }

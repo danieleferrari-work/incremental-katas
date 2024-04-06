@@ -12,7 +12,6 @@ text 'You are a nice person' to become 'You are a XXXX person'.
 
 
 
-
 STEP 2
 
 The first delivery went well, and your product owner will join you later today.
@@ -24,6 +23,24 @@ Mr E.Vil enters the room.
 --------------------------------------------------------------------------------
 Thus, if nice, pony, sun, light, fun, happy, funny, joy, and others are 
 blacklisted words, the sentence 
-     "Such a nice day with a bright sun, makes me happy"
+    "Such a nice day with a bright sun, makes me happy"
 becomes
     "Such a XXXX day with a bright XXX, makes me XXXXX"
+
+
+STEP 3
+
+Mr E.Vil approaches you.
+- "Another solid delivery with the list of blacklisted words.
+   All our tests passed and performance looked ok.
+
+   Next, we should be able to match with other competitors out
+   in the field. A very popular feature is to replace the whole
+   word which the blacklisted word is a prefix of.
+
+   Thus, if we have blacklisted 'friend', the sentence, 
+     You are so friendly!
+   Would become
+     You are so XXXXXXXXX
+  "
+ 
