@@ -3,19 +3,15 @@ using EvilCorp;
 
 namespace EvilCorp_Test;
 
-public class Tests
+public class CensorTests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
 
     [TestCase(new string[] { }, "You are a nice person", "You are a nice person")]
     [TestCase(new string[] { "nice" }, "You are a nice person", "You are a XXXX person")]
     [TestCase(new string[] { "nice" }, "You are a nice nice person", "You are a XXXX XXXX person")]
     [TestCase(new string[] { "are" }, "You are a nice person", "You XXX a nice person")]
-    [TestCase(new string[] { "nice", "pony", "sun", "light", "fun", "happy", "funny", "joy" }, 
-                            "Such a nice day with a bright sun, makes me happy", 
+    [TestCase(new string[] { "nice", "pony", "sun", "light", "fun", "happy", "funny", "joy" },
+                            "Such a nice day with a bright sun, makes me happy",
                             "Such a XXXX day with a bright XXX, makes me XXXXX")]
     [TestCase(new string[] { "friend" }, "You are so friendly!", "You are so XXXXXXXX!")]
 
@@ -27,5 +23,4 @@ public class Tests
 
         Assert.That(result, Is.EqualTo(expectedResult));
     }
-
 }

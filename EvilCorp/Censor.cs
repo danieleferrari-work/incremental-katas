@@ -13,8 +13,6 @@ public class Censor
 
     public string ApplyCensorship(string inputString)
     {
-        var result = inputString;
-
         var inputArray = inputString.Split(' ');
         var resultArray = inputArray;
 
